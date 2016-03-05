@@ -5,6 +5,6 @@ speakers: Reinaldo Ferraz
 date: 2015-10-03 00:04:04
 duration: 24:26 min
 tags: acessibilidade
-img: /assets/image/speakers/Reinaldo-ferraz.jpg 
+img: /assets/image/speakers/reinaldo-ferraz.jpg 
 link: https://www.youtube.com/watch?v=RFg6XP6oluE
 ---

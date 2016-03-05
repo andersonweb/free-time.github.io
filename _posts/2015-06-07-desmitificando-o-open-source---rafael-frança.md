@@ -5,6 +5,6 @@ speakers: Rafael França
 duration: 40:28
 date: 2015-06-07 12:23:16
 tags: open source
-img: '/assets/image/speakers/Rafael-Franca.png'
+img: '/assets/image/speakers/rafael-franca.png'
 link: https://www.youtube.com/watch?v=8UEDbvhnmQU
 ---

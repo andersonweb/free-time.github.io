@@ -5,6 +5,6 @@ speakers: Lúcio Maciel
 duration: 36:20
 date: 2015-06-06 11:38:31
 tags: [android]
-img: '/assets/image/speakers/Lucio-Maciel.jpg'
+img: '/assets/image/speakers/lucio-maciel.jpg'
 link: https://www.youtube.com/watch?v=MgRv8kAheNk
 ---

@@ -5,6 +5,6 @@ speakers: Marcelo Liberato
 duration: 45:38
 date: 2015-06-06 11:36:01
 tags: [mobile,android]
-img: '/assets/image/speakers/Marcelo-Liberato.jpg'
+img: '/assets/image/speakers/marcelo-liberato.jpg'
 link: https://www.youtube.com/watch?v=I0vTGjedYdk
 ---

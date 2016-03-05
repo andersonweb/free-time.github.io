@@ -5,7 +5,6 @@ speakers: Luciano Ramalho
 date:   2015-04-01 19:08:00
 duration: 40:12 min
 tags: python
-img: /assets/image/speakers/luciano_ramalho.jpg
+img: /assets/image/speakers/luciano-ramalho.jpg
 link: https://www.youtube.com/watch?v=71fPrl9u9Ac
 ---
-
