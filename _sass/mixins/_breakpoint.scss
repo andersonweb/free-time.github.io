@@ -11,4 +11,7 @@
   @else if $media == wide-medium-screens {
     @media only screen and (max-width: $max-width) { @content; }
   }
+  @else if $media == wide-handhelds-and-medium {
+    @media only screen and (min-width: $break-small - 1 ) and (max-width: $break-large + 1 ) { @content; }
+  }
 }

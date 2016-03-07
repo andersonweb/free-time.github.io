@@ -165,3 +165,53 @@
     display: none;
   }
 }
+
+.newsletters {
+  position: absolute;
+  top: 15%;
+  width: 50%;
+  left: 25%;
+  background: rgba(black, 0.8);
+  border-radius: 3px;
+  padding: 15px 30px;
+  text-align: center;
+
+  @include respond-to("wide-handhelds-and-medium") {
+    top: 1%;
+    background: red;
+  }
+}
+
+.newsletters-title {
+  font-size: 40px;
+  color: $white;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+.newsletters-subtitle {
+  color: #ccc;
+  font-size: 18px;
+  margin-top: 5px;
+  display: none;
+
+  @include respond-to("wide-screens") {
+    display: block;
+  }
+}
+
+.newsletters-form-input {
+  display: inline-block;
+  padding: 15px;
+  margin: 20px 0;
+  border: none;
+  border-radius: 3px;
+  vertical-align: middle;
+  height: 60px;
+  line-height: 60px;
+  max-width: 400px;
+  width: 100%;
+  background: #E4E4E4;
+  box-sizing: border-box;
+  outline: none;
+}

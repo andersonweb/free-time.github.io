@@ -24,12 +24,6 @@
 		color: $white;
 	}
 
-	&:active {
-		background: $color-secondary - 20;
-		color: $color-secondary - 90;
-		top:1px;
-	}
-
 	&:focus {
 		outline: none;
 	}
@@ -38,4 +32,14 @@
 .btn-primary {
 	@extend %btn;
 	background: $color-primary;
+	padding: 18px 25px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.btn-sing {
+	position: absolute;
+	bottom: 19%;
+	right: 2%;
+
 }
