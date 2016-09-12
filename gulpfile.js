@@ -5,6 +5,7 @@ var 	gulp 					= require('gulp'),
 		uglify 					= require('gulp-uglify'),
 		imagemin				= require('gulp-imagemin'),
 		concat 					= require('gulp-concat'),
+		copy					= require('gulp-contrib-copy'),
 		minifyHTML 				= require('gulp-minify-html');
 
 gulp.task('browser-sync', function(){
@@ -56,12 +57,18 @@ gulp.task('minify-html', function(){
 		.pipe(browserSync.stream());
 });
 
+gulp.task('copy', function(){
+	gulp.src('source/fonts/*')
+		.pipe(copy())
+		.pipe(gulp.dest('./app/fonts/'))
+});
+
 gulp.task('watch', function() {
 	gulp.watch('source/sass/**/*.sass', ['sass'] 		);
 	gulp.watch('source/js/**/*.js', 	['js'] 			);
 	gulp.watch('source/img/**/*', 		['imagemin']	);
-	gulp.watch('source/fonts/**/*', 	['fonts']		);
 	gulp.watch('source/*.html', 		['minify-html']	);
 });
 
-gulp.task('default', [ 'browser-sync', 'watch', 'imagemin', 'minify-html', 'js', 'sass' ]);
+
+gulp.task('default', [ 'browser-sync', 'watch', 'imagemin', 'minify-html', 'js', 'sass', 'copy' ]);
